@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
 
-from toydata import track_hit_coords
+from toy3d import track_hit_coords
 
 def draw_layer(ax, data, title=None, **kwargs):
     """Draw one detector layer as an image"""
